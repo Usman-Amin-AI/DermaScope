@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.9932668329177058,
+  "precision": 0.9989909182643795,
+  "recall": 0.9875311720698254,
+  "f1": 0.9932279909706546,
+  "train_size": 14014,
+  "validation_size": 2006,
+  "test_size": 4010,
+  "image_size": 224,
+  "epochs": 3,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "negative_dataset": "CIFAR-10",
+  "positive_dataset": "DermaMNIST"
+}

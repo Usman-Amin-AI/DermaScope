@@ -1,0 +1,119 @@
+{
+  "model": "/home/anonymous/projects/ai-dermascope/experiments/skin_classifier/models/v4_efficientnet_b0_dermamnist_160.pt",
+  "architecture": "efficientnet_b0",
+  "dataset": "DermaMNIST",
+  "split": "test",
+  "test_images": 2005,
+  "image_size": 224,
+  "batch_size": 32,
+  "device": "cpu",
+  "accuracy": 0.8259351620947631,
+  "macro_precision": 0.7213915260943379,
+  "macro_recall": 0.8265004509567058,
+  "macro_f1": 0.7636928977813228,
+  "correct": 1656,
+  "incorrect": 349,
+  "mean_confidence": 0.8441042809117761,
+  "threshold_analysis": {
+    "0.5": {
+      "accepted": 1884,
+      "coverage": 0.9396508728179551,
+      "accuracy": 0.8487261146496815
+    },
+    "0.6": {
+      "accepted": 1711,
+      "coverage": 0.8533665835411471,
+      "accuracy": 0.880187025131502
+    },
+    "0.7": {
+      "accepted": 1530,
+      "coverage": 0.7630922693266833,
+      "accuracy": 0.9065359477124183
+    },
+    "0.8": {
+      "accepted": 1360,
+      "coverage": 0.6783042394014963,
+      "accuracy": 0.9352941176470588
+    },
+    "0.9": {
+      "accepted": 1127,
+      "coverage": 0.5620947630922694,
+      "accuracy": 0.9645075421472937
+    }
+  },
+  "class_names": [
+    "actinic keratoses and intraepithelial carcinoma",
+    "basal cell carcinoma",
+    "benign keratosis-like lesions",
+    "dermatofibroma",
+    "melanoma",
+    "melanocytic nevi",
+    "vascular lesions"
+  ],
+  "confusion_matrix": [
+    [
+      51,
+      4,
+      6,
+      1,
+      3,
+      1,
+      0
+    ],
+    [
+      2,
+      95,
+      1,
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      12,
+      12,
+      152,
+      1,
+      28,
+      14,
+      1
+    ],
+    [
+      0,
+      3,
+      0,
+      18,
+      0,
+      2,
+      0
+    ],
+    [
+      7,
+      4,
+      10,
+      0,
+      171,
+      27,
+      4
+    ],
+    [
+      9,
+      16,
+      40,
+      2,
+      129,
+      1140,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      29
+    ]
+  ],
+  "high_confidence_error_count": 40
+}

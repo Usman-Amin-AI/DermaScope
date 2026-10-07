@@ -1,0 +1,242 @@
+[
+  {
+    "index": 352,
+    "true_class": "benign keratosis-like lesions",
+    "predicted_class": "actinic keratoses and intraepithelial carcinoma",
+    "confidence": 0.9951098561286926
+  },
+  {
+    "index": 1529,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9930188059806824
+  },
+  {
+    "index": 1316,
+    "true_class": "benign keratosis-like lesions",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9923027753829956
+  },
+  {
+    "index": 1244,
+    "true_class": "melanoma",
+    "predicted_class": "actinic keratoses and intraepithelial carcinoma",
+    "confidence": 0.9921981692314148
+  },
+  {
+    "index": 610,
+    "true_class": "benign keratosis-like lesions",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9913661479949951
+  },
+  {
+    "index": 702,
+    "true_class": "actinic keratoses and intraepithelial carcinoma",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9908643364906311
+  },
+  {
+    "index": 1020,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9827456474304199
+  },
+  {
+    "index": 1048,
+    "true_class": "benign keratosis-like lesions",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9672045111656189
+  },
+  {
+    "index": 1905,
+    "true_class": "actinic keratoses and intraepithelial carcinoma",
+    "predicted_class": "dermatofibroma",
+    "confidence": 0.9628263115882874
+  },
+  {
+    "index": 87,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.962717592716217
+  },
+  {
+    "index": 21,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9613555669784546
+  },
+  {
+    "index": 601,
+    "true_class": "benign keratosis-like lesions",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9564400911331177
+  },
+  {
+    "index": 1025,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "benign keratosis-like lesions",
+    "confidence": 0.9560419917106628
+  },
+  {
+    "index": 634,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9543700218200684
+  },
+  {
+    "index": 1845,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9538387060165405
+  },
+  {
+    "index": 1940,
+    "true_class": "basal cell carcinoma",
+    "predicted_class": "actinic keratoses and intraepithelial carcinoma",
+    "confidence": 0.9510918259620667
+  },
+  {
+    "index": 1417,
+    "true_class": "actinic keratoses and intraepithelial carcinoma",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9486896395683289
+  },
+  {
+    "index": 1011,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9484806060791016
+  },
+  {
+    "index": 586,
+    "true_class": "actinic keratoses and intraepithelial carcinoma",
+    "predicted_class": "benign keratosis-like lesions",
+    "confidence": 0.9444783926010132
+  },
+  {
+    "index": 1575,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "vascular lesions",
+    "confidence": 0.9382604956626892
+  },
+  {
+    "index": 1143,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9355177283287048
+  },
+  {
+    "index": 1185,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9343553781509399
+  },
+  {
+    "index": 1139,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "benign keratosis-like lesions",
+    "confidence": 0.9337579607963562
+  },
+  {
+    "index": 1661,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.931498110294342
+  },
+  {
+    "index": 1107,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9301474094390869
+  },
+  {
+    "index": 911,
+    "true_class": "benign keratosis-like lesions",
+    "predicted_class": "actinic keratoses and intraepithelial carcinoma",
+    "confidence": 0.929615318775177
+  },
+  {
+    "index": 1878,
+    "true_class": "melanoma",
+    "predicted_class": "benign keratosis-like lesions",
+    "confidence": 0.9270442128181458
+  },
+  {
+    "index": 1980,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9250866174697876
+  },
+  {
+    "index": 1054,
+    "true_class": "benign keratosis-like lesions",
+    "predicted_class": "melanocytic nevi",
+    "confidence": 0.924135684967041
+  },
+  {
+    "index": 1342,
+    "true_class": "benign keratosis-like lesions",
+    "predicted_class": "melanocytic nevi",
+    "confidence": 0.9232416749000549
+  },
+  {
+    "index": 504,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9214149713516235
+  },
+  {
+    "index": 460,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9202163815498352
+  },
+  {
+    "index": 1109,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9169368743896484
+  },
+  {
+    "index": 1456,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "benign keratosis-like lesions",
+    "confidence": 0.9155025482177734
+  },
+  {
+    "index": 705,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9136272072792053
+  },
+  {
+    "index": 764,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "melanoma",
+    "confidence": 0.9121578931808472
+  },
+  {
+    "index": 430,
+    "true_class": "melanoma",
+    "predicted_class": "basal cell carcinoma",
+    "confidence": 0.9113730192184448
+  },
+  {
+    "index": 953,
+    "true_class": "melanoma",
+    "predicted_class": "melanocytic nevi",
+    "confidence": 0.9063729643821716
+  },
+  {
+    "index": 1932,
+    "true_class": "benign keratosis-like lesions",
+    "predicted_class": "melanoma",
+    "confidence": 0.9046710133552551
+  },
+  {
+    "index": 432,
+    "true_class": "melanocytic nevi",
+    "predicted_class": "benign keratosis-like lesions",
+    "confidence": 0.9004026055335999
+  }
+]

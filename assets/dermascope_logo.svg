@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">DermaScope</title>
+  <desc id="desc">A leaf inside a dermoscopic lens, followed by the DermaScope wordmark.</desc>
+  <g>
+    <path d="m115 118 10-10 39 39-10 10z" fill="#9A6C50"/>
+    <circle cx="74" cy="73" r="67" fill="#285C49"/>
+    <circle cx="74" cy="73" r="57" fill="#F8F6EF"/>
+    <path d="M34 93c14-9 29-13 44-12 14 1 28 6 40 13l-4 7c-13-7-25-11-37-12-13-1-26 3-39 11z" fill="#C88365"/>
+    <path d="M31 107c16-9 32-13 48-12 14 1 28 6 41 14l-5 7c-12-7-25-11-37-12-15-1-29 3-43 11z" fill="#D9A185"/>
+    <path d="M50 84c-3-18 9-34 38-47 8 23 2 44-16 58-7 5-14 8-22 9" fill="#A7C6A4"/>
+    <path d="M54 99c11-15 21-28 34-41l4 4c-13 13-23 26-34 41z" fill="#F8F6EF"/>
+  </g>
+  <text x="178" y="91" fill="#24372D" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700">DermaScope</text>
+  <text x="181" y="127" fill="#627568" font-family="Arial, sans-serif" font-size="19">Educational dermoscopic image tool</text>
+</svg>

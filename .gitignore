@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# Generated and local artifacts
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Large datasets and training-only inputs
+data/
+
+# Legacy or generated project files
+skin_classifier_v1/
+models/best_efficientnet_b0_dermamnist.pt
+models/v2_balanced_128.pt
+models/v3_finetuned_128.pt
+results/baseline_freeze/
+results/final_validation/
+results/V3_V4_EXPERIMENT_REPORT.md
+results/confusion_matrix.png
+results/test_metrics.txt
+results/training_config.json
+results/v2_confusion_matrix.png
+results/v2_test_metrics.txt
+results/v2_training_config.json
+results/v3_confusion_matrix.png
+results/v3_test_metrics.txt
+results/v3_training_config.json
+results/v4_final_app_validation_gradcam.png
+results/v4_gradcam_smoke_test.png
+results/v4_training_config_160.json
+app_before_*.py
+app_v*_backup.py
+app_v*_polished.py
+
+# Editor and OS files
+.vscode/
+.idea/
+.agents/
