@@ -101,3 +101,29 @@ def test_batch_analysis_keeps_duplicate_and_unreadable_files_in_report():
         "3. broken.png",
     ]
     assert report_rows["Quality"].tolist() == ["Passed", "Passed", "Unreadable"]
+
+
+def test_public_upload_limits_reject_oversized_inputs():
+    app = AppTest.from_file(str(APP_FILE), default_timeout=30)
+
+    app.run()
+    app.file_uploader[0].set_value(
+        ("oversized.png", b"x" * (20 * 1024 * 1024 + 1), "image/png")
+    ).run()
+
+    assert not app.exception
+    assert "20 MB" in app.error[0].value
+
+
+def test_batch_limit_rejects_more_than_20_images():
+    image_bytes = SAMPLE_IMAGE.read_bytes()
+    app = AppTest.from_file(str(APP_FILE), default_timeout=30)
+
+    app.run()
+    app.get_by_key("upload_mode").set_value("Batch images").run()
+    app.file_uploader[0].set_value(
+        [(f"image-{index}.png", image_bytes, "image/png") for index in range(21)]
+    ).run()
+
+    assert not app.exception
+    assert "20 images" in app.error[0].value

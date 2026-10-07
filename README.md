@@ -71,6 +71,14 @@ streamlit run app.py
 
 Open the local URL printed by Streamlit. In the sidebar, choose **Single image** or **Batch images**. The single-image workflow displays quality and domain checks before the **Analyze Image** action. In batch mode, upload multiple JPG, JPEG, or PNG files and select **Analyze batch**. Download the CSV from the results section when analysis is complete.
 
+## Deploy to Streamlit Community Cloud
+
+The repository is prepared for a public Streamlit Community Cloud deployment. Use the repository's `app.py` entrypoint and `requirements-cloud.txt` as the dependency file in the Streamlit Cloud dashboard. Select Python 3.12, because the pinned PyTorch and torchvision versions are designed for that supported runtime.
+
+Before publishing, confirm that the two model checkpoints in `models/` are included in the repository and that the cloud app uses the same configuration as this workspace. The application limits single uploads to 20 MB and batch uploads to 20 images. The Cloud dashboard should be configured with the repository's `.streamlit/config.toml` and a public HTTPS URL is generated automatically.
+
+For the final public smoke test, upload one valid dermoscopic image, verify the classification and Grad-CAM output, switch to batch mode, upload two images, and confirm that the CSV report downloads successfully.
+
 ## Tests
 
 Run the automated test suite and syntax check from the project root:
