@@ -17,8 +17,6 @@ from src.reporting import build_batch_report_rows, build_csv_report
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-MAX_FILE_SIZE_BYTES = 20 * 1024 * 1024
-MAX_BATCH_IMAGES = 20
 THEME_TYPE = getattr(st.context.theme, "type", None)
 LOGO_NAME = (
     "dermascope_logo_dark.png"
@@ -142,24 +140,6 @@ if upload_mode == "Batch images":
 
     if not uploaded_files:
         st.info("Select two or more images to begin a batch analysis.")
-        st.stop()
-
-    if len(uploaded_files) > MAX_BATCH_IMAGES:
-        st.error(
-            f"Batch analysis supports a maximum of {MAX_BATCH_IMAGES} images per run."
-        )
-        st.stop()
-
-    oversized_files = [
-        uploaded_file.name
-        for uploaded_file in uploaded_files
-        if uploaded_file.size > MAX_FILE_SIZE_BYTES
-    ]
-    if oversized_files:
-        st.error(
-            "Each image must be 20 MB or smaller. "
-            f"Oversized file(s): {', '.join(oversized_files)}"
-        )
         st.stop()
 
     upload_signature = (
@@ -394,10 +374,6 @@ uploaded = st.file_uploader(
 
 if uploaded is None:
     st.info("Upload an image to begin the analysis.")
-    st.stop()
-
-if uploaded.size > MAX_FILE_SIZE_BYTES:
-    st.error("Each image must be 20 MB or smaller.")
     st.stop()
 
 try:

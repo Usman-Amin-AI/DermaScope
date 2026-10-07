@@ -16,9 +16,6 @@ env/
 
 # Streamlit
 .streamlit/
-!.streamlit/
-.streamlit/*
-!.streamlit/config.toml
 
 # Generated and local artifacts
 *.log
